@@ -16,7 +16,10 @@
         android:layout_marginEnd="0dp"
         android:background="#FFF"
         app:labelVisibilityMode="unlabeled"
-        android:layout_gravity="bottom" />
+        android:layout_gravity="bottom"
+        app:itemIconTint="@drawable/bottom_nav_icon_color_selector"
+        app:itemTextColor="@drawable/bottom_nav_icon_color_selector"
+        />
 
     <fragment
         android:id="@+id/nav_host_fragment"
